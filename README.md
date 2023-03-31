@@ -26,8 +26,8 @@ URL: `http://localhost:3000/notifications/:id/read`
 ### Unread a notification (PATCH Method)
 URL: `http://localhost:3000/notifications/:id/unread`
 
-### Count notifications from recipient
+### Count notifications from recipient (GET Method)
 URL: `http://localhost:3000/notifications/count/from/:recipientId`
 
-### Get notifications from recipient
+### Get notifications from recipient (GET Method)
 `http://localhost:3000/notifications/from/:recipientId`
