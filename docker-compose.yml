@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  notifications-service-db:
+    container_name: notifications
+    image: bitnami/postgresql
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRESQL_USERNAME=notifications
+      - POSTGRESQL_PASSWORD=notifications
+      - POSTGRESQL_DATABASE=notificationsdb
