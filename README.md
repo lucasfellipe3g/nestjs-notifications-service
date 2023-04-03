@@ -1,6 +1,6 @@
 # Notifications Service
 
-This in a microservice that aims to send notifications to a recipient, as a user, for example. To use this application, create a .env file and add a DATABASE_URL environment, something like:
+This is a microservice developed to send notifications to a recipient, as a user, for example. To use this application, create a .env file and add a DATABASE_URL environment, something like:
 
 `DATABASE_URL="postgresql://johndoe:johndoe@localhost:5432/mydb?schema=public"`
 
